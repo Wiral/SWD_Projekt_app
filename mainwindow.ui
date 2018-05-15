@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>828</width>
+    <height>672</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_9">
+        <item>
+         <widget class="window_opengl" name="windowOpenGL" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>400</width>
+            <height>300</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="window_data" name="windowData" native="true"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="window_graph" name="windowGraph" native="true"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>828</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuWDSPro">
+    <property name="title">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuStop">
+    <property name="title">
+     <string>Stop</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuOpcje">
+    <property name="title">
+     <string>Opcje</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuPomoc">
+    <property name="title">
+     <string>Pomoc</string>
+    </property>
+    <addaction name="actionWarto_ci_pobrane_z_urz_dzenia"/>
+    <addaction name="actionWykresy_przebiegu_zmiennych"/>
+    <addaction name="actionWizualizacja"/>
+   </widget>
+   <addaction name="menuWDSPro"/>
+   <addaction name="menuStop"/>
+   <addaction name="menuOpcje"/>
+   <addaction name="menuPomoc"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionWarto_ci_pobrane_z_urz_dzenia">
+   <property name="text">
+    <string>Wartości pobrane z urządzenia</string>
+   </property>
+  </action>
+  <action name="actionWykresy_przebiegu_zmiennych">
+   <property name="text">
+    <string>Wykresy przebiegu zmiennych</string>
+   </property>
+  </action>
+  <action name="actionWizualizacja">
+   <property name="text">
+    <string>Wizualizacja położenia płytki</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>window_data</class>
+   <extends>QWidget</extends>
+   <header>window_data.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>window_graph</class>
+   <extends>QWidget</extends>
+   <header>window_graph.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>window_opengl</class>
+   <extends>QWidget</extends>
+   <header>window_opengl.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
