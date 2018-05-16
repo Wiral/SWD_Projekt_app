@@ -58,18 +58,15 @@
    </property>
    <widget class="QMenu" name="menuWDSPro">
     <property name="title">
-     <string>Start</string>
+     <string>Program</string>
     </property>
-   </widget>
-   <widget class="QMenu" name="menuStop">
-    <property name="title">
-     <string>Stop</string>
-    </property>
+    <addaction name="actionStart_Stop"/>
    </widget>
    <widget class="QMenu" name="menuOpcje">
     <property name="title">
      <string>Opcje</string>
     </property>
+    <addaction name="actionUstawienia_portu"/>
    </widget>
    <widget class="QMenu" name="menuPomoc">
     <property name="title">
@@ -80,7 +77,6 @@
     <addaction name="actionWizualizacja"/>
    </widget>
    <addaction name="menuWDSPro"/>
-   <addaction name="menuStop"/>
    <addaction name="menuOpcje"/>
    <addaction name="menuPomoc"/>
   </widget>
@@ -98,6 +94,16 @@
   <action name="actionWizualizacja">
    <property name="text">
     <string>Wizualizacja położenia płytki</string>
+   </property>
+  </action>
+  <action name="actionUstawienia_portu">
+   <property name="text">
+    <string>Ustawienia portu</string>
+   </property>
+  </action>
+  <action name="actionStart_Stop">
+   <property name="text">
+    <string>Start/Stop</string>
    </property>
   </action>
  </widget>

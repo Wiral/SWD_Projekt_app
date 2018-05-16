@@ -28,16 +28,19 @@ SOURCES += \
         mainwindow.cpp \
     window_data.cpp \
     window_graph.cpp \
-    window_opengl.cpp
+    window_opengl.cpp \
+    window_settings.cpp
 
 HEADERS += \
         mainwindow.h \
     window_data.h \
     window_graph.h \
-    window_opengl.h
+    window_opengl.h \
+    window_settings.h
 
 FORMS += \
         mainwindow.ui \
     window_data.ui \
     window_graph.ui \
-    window_opengl.ui
+    window_opengl.ui \
+    window_settings.ui

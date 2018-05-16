@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>window_settings</class>
+ <widget class="QDialog" name="window_settings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>250</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>250</width>
+    <height>249</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>250</width>
+    <height>250</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Ustawienia</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>220</y>
+     <width>251</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+   <property name="centerButtons">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>61</x>
+     <y>5</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>URW Gothic L</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::WinPanel</enum>
+   </property>
+   <property name="text">
+    <string>Ustawienia portu</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>231</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Port:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Baudrate:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>DataBits:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>StopBits</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>ParityBits:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>FlowControl:</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLineEdit" name="window_settings_port"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="window_settings_baundrate"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="window_settings_databits"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="window_settings_stopbits"/>
+      </item>
+      <item>
+       <widget class="QComboBox" name="window_settings_paritybits">
+        <item>
+         <property name="text">
+          <string>None</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Odd</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Even</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="window_settings_flowcontrol">
+        <item>
+         <property name="text">
+          <string>None</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>RTS/CTS</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>XON/XOFF</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>window_settings</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>0</x>
+     <y>220</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>window_settings</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>0</x>
+     <y>220</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>249</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
