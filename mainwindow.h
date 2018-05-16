@@ -29,9 +29,10 @@ private slots:
     void stm32_read();
     void on_actionUstawienia_portu_triggered();
     void on_actionStart_Stop_triggered();
-
+    void stm32_show_connect_fail();
 signals:
     void stm32_newDataReady(QStringList);
+    void stm32_connect_fail();
 };
 
 #endif // MAINWINDOW_H

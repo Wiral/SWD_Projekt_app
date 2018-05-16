@@ -3,7 +3,7 @@
 #include <QSerialPort>
 #include <QSerialPortInfo>
 #include <QDebug>
-
+#include <QMessageBox>
 QSerialPort stm32;
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -18,6 +18,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QObject::connect(stm32,SIGNAL(readyRead()),this, SLOT(stm32_read()));
     QObject::connect(this,SIGNAL(stm32_newDataReady(QStringList)),ui->windowData,SLOT(updateData(QStringList)));
     QObject::connect(windowSettings,SIGNAL(new_settings()),this,SLOT(stm32_reconnect()));
+    QObject::connect(this,SIGNAL(stm32_connect_fail()),this, SLOT(stm32_show_connect_fail()));
 }
 
 MainWindow::~MainWindow()
@@ -51,6 +52,8 @@ void MainWindow::stm32_connect(){
         stm32->open(QSerialPort::ReadWrite);
         settings.endGroup();
     }
+    if(!stm32->isOpen())
+        emit(stm32_connect_fail());
 }
 
 void MainWindow::stm32_disconnect(){
@@ -76,4 +79,15 @@ void MainWindow::on_actionStart_Stop_triggered()
         stm32_disconnect();
     else
         stm32_connect();
+}
+
+void MainWindow::stm32_show_connect_fail(){
+    QMessageBox msg;
+    msg.setWindowTitle("Błąd połączenia");
+    msg.setText("Nie udało się nawiązać połączenia");
+    msg.setInformativeText("Upewnij się, że podałeś odpowiednie ustawienia portu");
+    msg.setStandardButtons(QMessageBox::Ok);
+    msg.setDefaultButton(QMessageBox::Ok);
+
+    msg.exec();
 }
