@@ -15,8 +15,8 @@ class window_settings : public QDialog
 public:
     explicit window_settings(QWidget *parent = 0);
     ~window_settings();
-    void load_settings();
-    void save_settings();
+    void load_stm32_settings();
+    void save_stm32_settings();
 signals:
     void new_settings();
 private slots:

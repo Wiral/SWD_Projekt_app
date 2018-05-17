@@ -22,6 +22,7 @@ private:
     QString stm32_buffer;
     QByteArray stm32_data;
     QStringList stm32_bufferSplit;
+    void load_settings();
 private slots:
     void stm32_connect();
     void stm32_disconnect();
@@ -34,6 +35,8 @@ signals:
     void stm32_newDataReady(QStringList);
     void stm32_connect_fail();
     void stm32_connect_success();
+protected:
+    void closeEvent(QCloseEvent* event);
 };
 
 #endif // MAINWINDOW_H

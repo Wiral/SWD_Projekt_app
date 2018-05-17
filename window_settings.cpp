@@ -13,7 +13,7 @@ window_settings::~window_settings()
     delete ui;
 }
 
-void window_settings::load_settings(){
+void window_settings::load_stm32_settings(){
     QSettings settings("jakubsobocki","projekt");
     settings.beginGroup("stm32");
     ui->window_settings_port->setText(settings.value("port","ttyUSB0").toString());
@@ -25,7 +25,7 @@ void window_settings::load_settings(){
     settings.endGroup();
 }
 
-void window_settings::save_settings(){
+void window_settings::save_stm32_settings(){
     QSettings settings("jakubsobocki","projekt");
     settings.beginGroup("stm32");
     settings.setValue("port",ui->window_settings_port->text());
@@ -34,25 +34,23 @@ void window_settings::save_settings(){
      settings.setValue("stopbits",ui->window_settings_stopbits->text());
     settings.setValue("flowcontrol",ui->window_settings_flowcontrol->currentIndex());
     settings.setValue("paritybits",ui->window_settings_paritybits->currentIndex());
-
-
     settings.endGroup();
 
 }
 
 void window_settings::on_buttonBox_accepted()
 {
-    save_settings();
+    save_stm32_settings();
     emit(new_settings());
 }
 
 
 void window_settings::on_buttonBox_rejected()
 {
-    load_settings();
+    load_stm32_settings();
 }
 
 void window_settings::reject(){
-    load_settings();
+    load_stm32_settings();
     QDialog::reject();
 }

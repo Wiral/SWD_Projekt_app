@@ -15,13 +15,14 @@ public:
     explicit window_graph(QWidget *parent = 0);
     ~window_graph();
 public slots:
-     void update_graphs(QStringList);
+     void graphs_update(QStringList);
      void reset_timer();
 private:
     Ui::window_graph *ui;
-    void init_graphs();
+    void graphs_init();
     QTime* time;
-
+    int time_stamp = 0.2;
+    const int refresh_rate = 1;
 
 };
 

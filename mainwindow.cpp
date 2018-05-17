@@ -11,15 +11,16 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    load_settings();
     windowSettings = new window_settings(this);
     stm32 = new QSerialPort(this);
-    windowSettings->load_settings();
+    windowSettings->load_stm32_settings();
 
     QObject::connect(stm32,SIGNAL(readyRead()),this, SLOT(stm32_read()));
     QObject::connect(this,SIGNAL(stm32_newDataReady(QStringList)),ui->windowData,SLOT(update_data(QStringList)));
     QObject::connect(windowSettings,SIGNAL(new_settings()),this,SLOT(stm32_reconnect()));
     QObject::connect(this,SIGNAL(stm32_connect_fail()),this, SLOT(stm32_show_connect_fail()));
-    QObject::connect(this,SIGNAL(stm32_newDataReady(QStringList)),ui->windowGraph,SLOT(update_graphs(QStringList)));
+    QObject::connect(this,SIGNAL(stm32_newDataReady(QStringList)),ui->windowGraph,SLOT(graphs_update(QStringList)));
     QObject::connect(this,SIGNAL(stm32_connect_success()),ui->windowGraph,SLOT(reset_timer()));
 }
 
@@ -87,10 +88,25 @@ void MainWindow::on_actionStart_Stop_triggered()
 void MainWindow::stm32_show_connect_fail(){
     QMessageBox msg;
     msg.setWindowTitle("Błąd połączenia");
+    msg.setPalette(QPalette(this->palette()));
     msg.setText("Nie udało się nawiązać połączenia");
     msg.setInformativeText("Upewnij się, że podałeś odpowiednie ustawienia portu");
     msg.setStandardButtons(QMessageBox::Ok);
     msg.setDefaultButton(QMessageBox::Ok);
-
+    msg.setGeometry(this->geometry().center().x(),this->geometry().center().y(),50,50);
     msg.exec();
+}
+
+void MainWindow::closeEvent(QCloseEvent *event){
+    QSettings settings("jakubsobocki","projekt");
+    settings.beginGroup("mainwindow");
+    settings.setValue("pos",pos());
+    settings.endGroup();
+}
+
+void MainWindow::load_settings(){
+    QSettings settings("jakubsobocki","projekt");
+    settings.beginGroup("mainwindow");
+    move((settings.value("pos").toPoint()));
+    settings.endGroup();
 }
