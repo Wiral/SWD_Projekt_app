@@ -34,7 +34,6 @@ void MainWindow::stm32_read(){
         stm32_buffer = QString::fromStdString(stm32_data.toStdString());
         stm32_bufferSplit = stm32_buffer.split(" ");
         emit(stm32_newDataReady(stm32_bufferSplit));
-        qDebug() << stm32_bufferSplit;
     }
 }
 
