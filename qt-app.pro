@@ -6,7 +6,7 @@
 
 QT       += core gui serialport
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport
 
 TARGET = qt-app
 TEMPLATE = app
@@ -29,14 +29,19 @@ SOURCES += \
     window_data.cpp \
     window_graph.cpp \
     window_opengl.cpp \
-    window_settings.cpp
+    window_settings.cpp \
+    qcustomplot.cpp
+
+
 
 HEADERS += \
         mainwindow.h \
     window_data.h \
     window_graph.h \
     window_opengl.h \
-    window_settings.h
+    window_settings.h \
+    qcustomplot.h
+
 
 FORMS += \
         mainwindow.ui \

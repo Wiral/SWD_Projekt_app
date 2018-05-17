@@ -14,7 +14,7 @@ window_data::~window_data()
     delete ui;
 }
 
-void window_data::updateData(QStringList data){
+void window_data::update_data(QStringList data){
     if(data.length() == 7){ //poprawny format ramki
     ui->windowData_data_acc_x->setText(data[0]);
     ui->windowData_data_acc_y->setText(data[1]);

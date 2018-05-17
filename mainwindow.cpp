@@ -16,9 +16,11 @@ MainWindow::MainWindow(QWidget *parent) :
     windowSettings->load_settings();
 
     QObject::connect(stm32,SIGNAL(readyRead()),this, SLOT(stm32_read()));
-    QObject::connect(this,SIGNAL(stm32_newDataReady(QStringList)),ui->windowData,SLOT(updateData(QStringList)));
+    QObject::connect(this,SIGNAL(stm32_newDataReady(QStringList)),ui->windowData,SLOT(update_data(QStringList)));
     QObject::connect(windowSettings,SIGNAL(new_settings()),this,SLOT(stm32_reconnect()));
     QObject::connect(this,SIGNAL(stm32_connect_fail()),this, SLOT(stm32_show_connect_fail()));
+    QObject::connect(this,SIGNAL(stm32_newDataReady(QStringList)),ui->windowGraph,SLOT(update_graphs(QStringList)));
+    QObject::connect(this,SIGNAL(stm32_connect_success()),ui->windowGraph,SLOT(reset_timer()));
 }
 
 MainWindow::~MainWindow()
@@ -54,6 +56,8 @@ void MainWindow::stm32_connect(){
     }
     if(!stm32->isOpen())
         emit(stm32_connect_fail());
+    else
+        emit(stm32_connect_success());
 }
 
 void MainWindow::stm32_disconnect(){

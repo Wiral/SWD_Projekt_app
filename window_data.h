@@ -16,7 +16,7 @@ public:
 private:
     Ui::window_data *ui;
 public slots:
-    void updateData(QStringList);
+    void update_data(QStringList);
 
 };
 

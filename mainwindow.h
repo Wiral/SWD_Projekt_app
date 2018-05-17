@@ -33,6 +33,7 @@ private slots:
 signals:
     void stm32_newDataReady(QStringList);
     void stm32_connect_fail();
+    void stm32_connect_success();
 };
 
 #endif // MAINWINDOW_H
