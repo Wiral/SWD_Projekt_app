@@ -6,6 +6,7 @@ window_settings::window_settings(QWidget *parent) :
     ui(new Ui::window_settings)
 {
     ui->setupUi(this);
+    load_settings();
 }
 
 window_settings::~window_settings()
@@ -13,7 +14,7 @@ window_settings::~window_settings()
     delete ui;
 }
 
-void window_settings::load_stm32_settings(){
+void window_settings::load_settings(){
     QSettings settings("jakubsobocki","projekt");
     settings.beginGroup("stm32");
     ui->window_settings_port->setText(settings.value("port","ttyUSB0").toString());
@@ -23,9 +24,12 @@ void window_settings::load_stm32_settings(){
     ui->window_settings_flowcontrol->setCurrentIndex(settings.value("flowcontrol",0).toInt());
     ui->window_settings_paritybits->setCurrentIndex(settings.value("paritybits",0).toInt());
     settings.endGroup();
+    settings.beginGroup("windowgraphs");
+    ui->window_settings_refreshrate->setValue(settings.value("refreshrate",0.1).toDouble());
+    settings.endGroup();
 }
 
-void window_settings::save_stm32_settings(){
+void window_settings::save_settings(){
     QSettings settings("jakubsobocki","projekt");
     settings.beginGroup("stm32");
     settings.setValue("port",ui->window_settings_port->text());
@@ -34,23 +38,27 @@ void window_settings::save_stm32_settings(){
      settings.setValue("stopbits",ui->window_settings_stopbits->text());
     settings.setValue("flowcontrol",ui->window_settings_flowcontrol->currentIndex());
     settings.setValue("paritybits",ui->window_settings_paritybits->currentIndex());
+
+    settings.endGroup();
+    settings.beginGroup("windowgraphs");
+    settings.setValue("refreshrate",ui->window_settings_refreshrate->value());
     settings.endGroup();
 
 }
 
 void window_settings::on_buttonBox_accepted()
 {
-    save_stm32_settings();
+    save_settings();
     emit(new_settings());
 }
 
 
 void window_settings::on_buttonBox_rejected()
 {
-    load_stm32_settings();
+    load_settings();
 }
 
 void window_settings::reject(){
-    load_stm32_settings();
+    load_settings();
     QDialog::reject();
 }

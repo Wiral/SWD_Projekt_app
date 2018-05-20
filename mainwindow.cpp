@@ -14,14 +14,14 @@ MainWindow::MainWindow(QWidget *parent) :
     load_settings();
     windowSettings = new window_settings(this);
     stm32 = new QSerialPort(this);
-    windowSettings->load_stm32_settings();
 
     QObject::connect(stm32,SIGNAL(readyRead()),this, SLOT(stm32_read()));
     QObject::connect(this,SIGNAL(stm32_newDataReady(QStringList)),ui->windowData,SLOT(update_data(QStringList)));
     QObject::connect(windowSettings,SIGNAL(new_settings()),this,SLOT(stm32_reconnect()));
     QObject::connect(this,SIGNAL(stm32_connect_fail()),this, SLOT(stm32_show_connect_fail()));
     QObject::connect(this,SIGNAL(stm32_newDataReady(QStringList)),ui->windowGraph,SLOT(graphs_update(QStringList)));
-    QObject::connect(this,SIGNAL(stm32_connect_success()),ui->windowGraph,SLOT(reset_timer()));
+    QObject::connect(this,SIGNAL(stm32_connect_success()),ui->windowGraph,SLOT(reset_graphs()));
+    QObject::connect(windowSettings,SIGNAL(new_settings()),ui->windowGraph,SLOT(load_graphs_settings()));
 }
 
 MainWindow::~MainWindow()
@@ -34,8 +34,8 @@ void MainWindow::stm32_read(){
         stm32_data = stm32->readLine();
         stm32_buffer = QString::fromStdString(stm32_data.toStdString());
         stm32_bufferSplit = stm32_buffer.split(" ");
-        emit(stm32_newDataReady(stm32_bufferSplit));
-    }
+            emit(stm32_newDataReady(stm32_bufferSplit));
+        }
 }
 
 void MainWindow::stm32_connect(){
@@ -110,3 +110,4 @@ void MainWindow::load_settings(){
     move((settings.value("pos").toPoint()));
     settings.endGroup();
 }
+
