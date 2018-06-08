@@ -22,6 +22,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QObject::connect(this,SIGNAL(stm32_newDataReady(QStringList)),ui->windowGraph,SLOT(graphs_update(QStringList)));
     QObject::connect(this,SIGNAL(stm32_connect_success()),ui->windowGraph,SLOT(reset_graphs()));
     QObject::connect(windowSettings,SIGNAL(new_settings()),ui->windowGraph,SLOT(load_graphs_settings()));
+    QObject::connect(this,SIGNAL(stm32_newDataReady(QStringList)),ui->windowOpenGL,SLOT(prepare_data(QStringList)));
 }
 
 MainWindow::~MainWindow()
@@ -31,10 +32,11 @@ MainWindow::~MainWindow()
 
 void MainWindow::stm32_read(){
     while(stm32->canReadLine()){
-        stm32_data = stm32->readLine();
-        stm32_buffer = QString::fromStdString(stm32_data.toStdString());
-        stm32_bufferSplit = stm32_buffer.split(" ");
-            emit(stm32_newDataReady(stm32_bufferSplit));
+            stm32_data = stm32->readLine();
+            stm32_buffer = QString::fromStdString(stm32_data.toStdString());
+            stm32_bufferSplit = stm32_buffer.split(" ");
+            if(stm32_bufferSplit.length() == 7)
+                 emit(stm32_newDataReady(stm32_bufferSplit));
         }
 }
 

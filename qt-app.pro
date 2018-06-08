@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui serialport
+QT       += core gui serialport opengl
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport
 
@@ -49,3 +49,4 @@ FORMS += \
     window_graph.ui \
     window_opengl.ui \
     window_settings.ui
+

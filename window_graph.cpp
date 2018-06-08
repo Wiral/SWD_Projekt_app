@@ -49,14 +49,13 @@ void window_graph::graphs_update(QStringList new_data){
     elapsed_time = time->elapsed()/1000.0; // aktualny czas
     if(elapsed_time - time_stamp >= refresh_rate){ //jeżeli trzeba zaktualizować wykres
         time_stamp = elapsed_time;
-        if(new_data.length() == 7){ //jeżeli poprawny format ramki
+
             for(i = 0; i < 6; i++){
                 graphs[i]->graph(0)->addData(elapsed_time, new_data[i].toInt());
                 graphs[i]->xAxis->setRange(elapsed_time,60, Qt::AlignRight);
                 graphs[i]->replot();
             }
         }
-    }
 }
 
 void window_graph::reset_graphs(){
