@@ -1,0 +1,25 @@
+<map id="QCPFinancial::penNegative" name="QCPFinancial::penNegative">
+<area shape="rect" id="node2" href="$class_q_c_p_abstract_plottable1_d.html#a22377bf6e57ab7eedbc9e489250c6ded" title="QCPAbstractPlottable1D\l::selectTestRect" alt="" coords="237,111,405,153"/>
+<area shape="rect" id="node16" href="$class_q_c_p_abstract_plottable1_d.html#a4611b43bcb6441b2154eb4f4e0a33db2" title="QCPAbstractPlottable1D\l::selectTest" alt="" coords="237,177,405,218"/>
+<area shape="rect" id="node23" href="$class_q_c_p_abstract_plottable.html#a4da16d3cd4b509e1104a9b0275623c96" title="QCPAbstractPlottable\l::getKeyRange" alt="" coords="246,242,397,283"/>
+<area shape="rect" id="node24" href="$class_q_c_p_abstract_plottable.html#a4de773988b21ed090fddd27c6a3a3dcb" title="QCPAbstractPlottable\l::getValueRange" alt="" coords="246,307,397,349"/>
+<area shape="rect" id="node3" href="$class_q_c_p_abstract_plottable.html#a10408828446e9e0681c46d65120f382e" title="QCPAbstractPlottable\l::pixelsToCoords" alt="" coords="487,57,638,98"/>
+<area shape="rect" id="node13" href="$class_q_c_p_range.html#a030ce95b527c32e01414d0351347b46d" title="QCPRange::contains" alt="" coords="489,5,636,32"/>
+<area shape="rect" id="node14" href="$class_q_c_p_data_selection.html#a46740c5aa7b80ae9b2abf6985d61b74f" title="QCPDataSelection::addData\lRange" alt="" coords="467,174,658,215"/>
+<area shape="rect" id="node15" href="$class_q_c_p_data_selection.html#a4a2fbad1a6e4d1dd26fdfdf88956f2a4" title="QCPDataSelection::simplify" alt="" coords="469,123,656,149"/>
+<area shape="rect" id="node4" href="$class_q_c_p_abstract_plottable.html#a72c7a09c22963f2c943f07112b311103" title="QCPAbstractPlottable\l::keyAxis" alt="" coords="726,210,877,251"/>
+<area shape="rect" id="node5" href="$class_q_c_p_abstract_plottable.html#a3106f9d34d330a6097a8ec5905e5b519" title="QCPAbstractPlottable\l::valueAxis" alt="" coords="726,145,877,186"/>
+<area shape="rect" id="node6" href="$class_q_c_p_axis.html#a57483f2f60145ddc9e63f3af53959265" title="QCPAxis::orientation" alt="" coords="935,32,1080,59"/>
+<area shape="rect" id="node7" href="$class_q_c_p_axis.html#ae9289ef7043b9d966af88eaa95b037d1" title="QCPAxis::pixelToCoord" alt="" coords="720,93,883,120"/>
+<area shape="rect" id="node8" href="$class_q_c_p_axis_rect.html#a55b3ecf72a3a65b053f7651b88db458d" title="QCPAxisRect::left" alt="" coords="942,133,1073,160"/>
+<area shape="rect" id="node9" href="$class_q_c_p_axis_rect.html#a45bf5c17f4ca29131b7eb0db06efc259" title="QCPAxisRect::width" alt="" coords="935,184,1079,211"/>
+<area shape="rect" id="node10" href="$class_q_c_p_range.html#afa57c13049b965edb6fd1c00ac56338a" title="QCPRange::size" alt="" coords="947,235,1068,261"/>
+<area shape="rect" id="node11" href="$class_q_c_p_axis_rect.html#af2b5982ebe7e6f781b9bf1cc371a60d8" title="QCPAxisRect::bottom" alt="" coords="931,285,1084,312"/>
+<area shape="rect" id="node12" href="$class_q_c_p_axis_rect.html#a1c55c4f3bef40cf01b21820316c8469e" title="QCPAxisRect::height" alt="" coords="933,83,1081,109"/>
+<area shape="rect" id="node17" href="$class_q_custom_plot.html#a7b738074c75e80070ef6a10263c6cd69" title="QCustomPlot::selectionTolerance" alt="" coords="453,356,672,383"/>
+<area shape="rect" id="node18" href="$class_q_c_p_abstract_plottable.html#ade710a776104b14c1c835168ce1bfc5c" title="QCPAbstractPlottable\l::coordsToPixels" alt="" coords="487,239,638,281"/>
+<area shape="rect" id="node22" href="$class_q_c_p_vector2_d.html#a1332fad5a1cc1cc93ce781f8c01264b5" title="QCPVector2D::lengthSquared" alt="" coords="464,305,661,332"/>
+<area shape="rect" id="node19" href="$class_q_c_p_axis.html#a985ae693b842fb0422b4390fe36d299a" title="QCPAxis::coordToPixel" alt="" coords="721,276,882,303"/>
+<area shape="rect" id="node20" href="$class_q_c_p_axis_rect.html#a6d0f989fc552aa2b563cf82f8fc81e61" title="QCPAxisRect::right" alt="" coords="938,336,1077,363"/>
+<area shape="rect" id="node21" href="$class_q_c_p_axis_rect.html#ac45aef1eb75cea46b241b6303028a607" title="QCPAxisRect::top" alt="" coords="942,387,1073,413"/>
+</map>

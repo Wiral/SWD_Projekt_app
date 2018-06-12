@@ -1,0 +1,15 @@
+<map id="QCustomPlot::axisRect" name="QCustomPlot::axisRect">
+<area shape="rect" id="node2" href="$class_q_c_p_abstract_item.html#a75036d39c4d4e2e1a7dd145fff915d32" title="QCPAbstractItem::createPosition" alt="" coords="215,46,432,73"/>
+<area shape="rect" id="node3" href="$class_q_custom_plot.html#a5508a207dcc279f316142f96d984bba3" title="QCustomPlot::processRectZoom" alt="" coords="215,97,431,123"/>
+<area shape="rect" id="node6" href="$class_q_c_p_axis_rect.html#a2dc336092ccc57d44a46194c8a23e4f4" title="QCPAxisRect::addAxis" alt="" coords="243,173,403,199"/>
+<area shape="rect" id="node10" href="$classwindow__graph.html#a8f8334fb8413829ee02177bdbd86d1eb" title="graphs_init " alt="" coords="747,249,923,275"/>
+<area shape="rect" id="node14" href="$class_q_c_p_axis_rect.html#a575e38ac71a21906dc2d7b3364db2d62" title="QCPAxisRect::layoutChanged" alt="" coords="223,325,423,351"/>
+<area shape="rect" id="node4" href="$class_q_custom_plot.html#a810ef958ebe84db661c7288b526c0deb" title="QCustomPlot::setSelection\lRectMode" alt="" coords="499,5,680,47"/>
+<area shape="rect" id="node5" href="$class_q_custom_plot.html#a0c09f96df15faa4799ad7051bb16cf33" title="QCustomPlot::setSelectionRect" alt="" coords="485,71,694,98"/>
+<area shape="rect" id="node7" href="$class_q_c_p_axis_rect.html#a60b31dece805462c1b82eea2e69ba042" title="QCPAxisRect::QCPAxisRect" alt="" coords="491,122,687,149"/>
+<area shape="rect" id="node8" href="$class_q_c_p_axis_rect.html#a792e1f3d9cb1591fca135bb0de9b81fc" title="QCPAxisRect::addAxes" alt="" coords="507,173,671,199"/>
+<area shape="rect" id="node9" href="$class_q_c_p_axis_rect.html#a5fa906175447b14206954f77fc7f1ef4" title="QCPAxisRect::setupFullAxesBox" alt="" coords="480,223,699,250"/>
+<area shape="rect" id="node11" href="$classwindow__graph.html#a6d43127665ebae38fe7492a8968ea1cd" title="Konstruuje obiekt window_graph. " alt="" coords="1347,241,1504,283"/>
+<area shape="rect" id="node12" href="$classwindow__graph.html#a060973c4bfc564d577d474ec2ada21f6" title="reset_graphs " alt="" coords="971,271,1113,312"/>
+<area shape="rect" id="node13" href="$classwindow__graph.html#ac7ddd7cd43c21412c8cf627a7d8324ea" title="load_graphs_settings " alt="" coords="1161,271,1299,312"/>
+</map>

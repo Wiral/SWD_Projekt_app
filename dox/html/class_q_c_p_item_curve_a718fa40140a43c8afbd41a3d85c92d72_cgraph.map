@@ -1,0 +1,9 @@
+<map id="QCPItemCurve::selectTest" name="QCPItemCurve::selectTest">
+<area shape="rect" id="node2" href="$class_q_c_p_item_position.html#a8be9a4787635433edecc75164beb748d" title="QCPItemPosition::pixelPosition" alt="" coords="237,59,443,86"/>
+<area shape="rect" id="node6" href="$class_q_c_p_vector2_d.html#a0f85a9c351640a4e0fc3c2a1a42d5d0c" title="QCPVector2D::distanceSquared\lToLine" alt="" coords="235,111,445,152"/>
+<area shape="rect" id="node3" href="$class_q_c_p_item_anchor.html#a4e7e1764fcba37b532e833cb30fee4ee" title="QCPItemAnchor::pixelPosition" alt="" coords="493,13,693,39"/>
+<area shape="rect" id="node5" href="$class_q_custom_plot.html#a953ecdbc28018e7e84cb6213ad3d88c2" title="QCustomPlot::viewport" alt="" coords="514,63,673,90"/>
+<area shape="rect" id="node4" href="$class_q_c_p_abstract_item.html#ae56a01594e57709e7be44206fd65345f" title="QCPAbstractItem::anchorPixel\lPosition" alt="" coords="741,5,944,47"/>
+<area shape="rect" id="node7" href="$class_q_c_p_vector2_d.html#a1332fad5a1cc1cc93ce781f8c01264b5" title="QCPVector2D::lengthSquared" alt="" coords="495,115,692,142"/>
+<area shape="rect" id="node8" href="$class_q_c_p_vector2_d.html#a2decf61d2230103055830ba749e72ed2" title="QCPVector2D::dot" alt="" coords="527,166,659,193"/>
+</map>

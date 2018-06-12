@@ -1,0 +1,19 @@
+<map id="QCPAbstractPlottable::QCPAbstractPlottable" name="QCPAbstractPlottable::QCPAbstractPlottable">
+<area shape="rect" id="node2" href="$class_q_c_p_layerable.html#ab7e0e94461566093d36ffc0f5312b109" title="QCPLayerable::parentPlot" alt="" coords="718,13,893,40"/>
+<area shape="rect" id="node3" href="$class_q_c_p_axis.html#a57483f2f60145ddc9e63f3af53959265" title="QCPAxis::orientation" alt="" coords="241,101,386,128"/>
+<area shape="rect" id="node4" href="$class_q_custom_plot.html#aeba7733bb9fadfb5a375b3f40de9e58a" title="QCustomPlot::registerPlottable" alt="" coords="212,152,415,178"/>
+<area shape="rect" id="node17" href="$class_q_c_p_abstract_plottable.html#a20e266ad646f8c4a7e4631040510e5d9" title="QCPAbstractPlottable\l::setSelectionDecorator" alt="" coords="234,254,393,295"/>
+<area shape="rect" id="node5" href="$class_q_custom_plot.html#adea38bdc660da9412ba69fb939031567" title="QCustomPlot::plottable" alt="" coords="474,64,633,90"/>
+<area shape="rect" id="node6" href="$class_q_c_p_abstract_plottable.html#aa64e93cb5b606d8110d2cc0a349bb30f" title="QCPAbstractPlottable\l::addToLegend" alt="" coords="478,115,629,156"/>
+<area shape="rect" id="node9" href="$class_q_c_p_layerable.html#aea67e8c19145e70d68c286a36f6b8300" title="QCPLayerable::layer" alt="" coords="977,168,1120,194"/>
+<area shape="rect" id="node10" href="$class_q_c_p_layerable.html#ab0d0da6d2de45a118886d2c8e16d5a54" title="QCPLayerable::setLayer" alt="" coords="471,232,636,258"/>
+<area shape="rect" id="node16" href="$class_q_custom_plot.html#af73057345656cbd1463454982d808b00" title="QCustomPlot::currentLayer" alt="" coords="463,282,644,309"/>
+<area shape="rect" id="node7" href="$class_q_c_p_legend.html#a2eb1d24bdf5658e64962a656303fd61a" title="QCPLegend::hasItemWithPlottable" alt="" coords="692,76,919,102"/>
+<area shape="rect" id="node8" href="$class_q_c_p_legend.html#a3ab274de52d2951faea45a6d975e6b3f" title="QCPLegend::addItem" alt="" coords="731,126,879,153"/>
+<area shape="rect" id="node11" href="$class_q_c_p_layerable.html#af94484cfb7cbbddb7de522e9be71d9a4" title="QCPLayerable::moveToLayer" alt="" coords="708,257,903,284"/>
+<area shape="rect" id="node12" href="$class_q_c_p_layer.html#a3958c9a938c2d05a7378c41484acee08" title="QCPLayer::parentPlot" alt="" coords="973,218,1124,245"/>
+<area shape="rect" id="node13" href="$class_q_c_p_layer.html#a96ebd1e436f3813938cb9cd4a59a60be" title="QCPLayer::name" alt="" coords="987,269,1110,296"/>
+<area shape="rect" id="node14" href="$class_q_c_p_layer.html#ac2f64ac7761650582d968d86670ef362" title="QCPLayer::removeChild" alt="" coords="967,320,1131,346"/>
+<area shape="rect" id="node15" href="$class_q_c_p_layer.html#a57ce5e49364aa9122276d5df3b4a0ddc" title="QCPLayer::addChild" alt="" coords="977,370,1120,397"/>
+<area shape="rect" id="node18" href="$class_q_c_p_selection_decorator.html#af66cb39e308da0285ae5d533e1e85027" title="QCPSelectionDecorator\l::registerWithPlottable" alt="" coords="472,334,635,375"/>
+</map>

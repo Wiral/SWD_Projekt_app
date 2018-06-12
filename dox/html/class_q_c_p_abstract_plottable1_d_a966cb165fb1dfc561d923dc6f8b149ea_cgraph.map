@@ -1,0 +1,14 @@
+<map id="QCPAbstractPlottable1D::getDataSegments" name="QCPAbstractPlottable1D::getDataSegments">
+<area shape="rect" id="node2" href="$class_q_c_p_abstract_plottable.html#ab901903adcb0e29467d63de72340ab29" title="QCPAbstractPlottable\l::selected" alt="" coords="251,5,402,47"/>
+<area shape="rect" id="node3" href="$class_q_c_p_abstract_plottable1_d.html#ab5dd99e4f1621e7dbd63438e0b02984e" title="QCPAbstractPlottable1D\l::dataCount" alt="" coords="243,71,411,112"/>
+<area shape="rect" id="node4" href="$class_q_c_p_abstract_plottable.html#a6fcea502826afbaab2568bd3ebc61b4b" title="QCPAbstractPlottable\l::selection" alt="" coords="251,136,402,177"/>
+<area shape="rect" id="node5" href="$class_q_c_p_data_selection.html#a4a2fbad1a6e4d1dd26fdfdf88956f2a4" title="QCPDataSelection::simplify" alt="" coords="482,202,669,229"/>
+<area shape="rect" id="node6" href="$class_q_c_p_data_selection.html#a74b63e4a98eb5eba0f6d77d2d4161a9a" title="QCPDataSelection::dataRanges" alt="" coords="221,253,432,279"/>
+<area shape="rect" id="node7" href="$class_q_c_p_data_selection.html#a02c6253d87d72b8defbee2e6bfa8a494" title="QCPDataSelection::inverse" alt="" coords="235,303,418,330"/>
+<area shape="rect" id="node8" href="$class_q_c_p_data_range.html#a2ab2e0710dbd4493133ab582ef7e5fc3" title="QCPDataRange::isEmpty" alt="" coords="489,253,662,279"/>
+<area shape="rect" id="node9" href="$class_q_c_p_data_range.html#a92eb8e85db62f0f833486fa4521fb586" title="QCPDataRange::expanded" alt="" coords="485,303,666,330"/>
+<area shape="rect" id="node11" href="$class_q_c_p_data_range.html#a6b14c93d5010e973427b8ecaebf77864" title="QCPDataRange::begin" alt="" coords="497,354,653,381"/>
+<area shape="rect" id="node12" href="$class_q_c_p_data_selection.html#a46740c5aa7b80ae9b2abf6985d61b74f" title="QCPDataSelection::addData\lRange" alt="" coords="480,405,671,447"/>
+<area shape="rect" id="node13" href="$class_q_c_p_data_range.html#add50cb7075b68a0dd35fb5c962c81bbf" title="QCPDataRange::end" alt="" coords="502,471,649,498"/>
+<area shape="rect" id="node10" href="$class_q_c_p_data_range.html#a49e72fd9bace1da9d875136dcc04c986" title="QCPDataRange::QCPDataRange" alt="" coords="719,303,939,330"/>
+</map>

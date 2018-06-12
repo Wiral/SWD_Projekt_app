@@ -1,0 +1,23 @@
+<map id="QCPAbstractPlottable::setPen" name="QCPAbstractPlottable::setPen">
+<area shape="rect" id="node2" href="$class_q_c_p_graph.html#a0393a38cf7183cbf46348eb6cf9a5a6c" title="QCPGraph::QCPGraph" alt="" coords="225,5,384,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_curve.html#a36de58e2652b3fa47bdf9187d421d3ce" title="QCPCurve::QCPCurve" alt="" coords="225,56,384,83"/>
+<area shape="rect" id="node4" href="$class_q_c_p_statistical_box.html#a75c2b3e7fcd0741cc981693a2ba63b27" title="QCPStatisticalBox::\lQCPStatisticalBox" alt="" coords="235,107,375,149"/>
+<area shape="rect" id="node5" href="$class_q_c_p_error_bars.html#a5cdcc33e5f173780c3d657e96216e5c1" title="QCPErrorBars::QCPErrorBars" alt="" coords="205,173,404,200"/>
+<area shape="rect" id="node6" href="$class_q_c_p_item_straight_line.html#a9e33ae966a7e2ea1083b3b9aeabeaea5" title="QCPItemStraightLine\l::selectedPen" alt="" coords="231,225,378,266"/>
+<area shape="rect" id="node7" href="$class_q_c_p_item_line.html#a5d2ca0f784933e80f3e6e1d15dceebb3" title="QCPItemLine::tail" alt="" coords="241,291,368,317"/>
+<area shape="rect" id="node9" href="$class_q_c_p_item_curve.html#a9adddfcc5275be0cf27e3c0c31c37c1a" title="QCPItemCurve::tail" alt="" coords="236,341,373,368"/>
+<area shape="rect" id="node11" href="$class_q_c_p_item_rect.html#a3b586228393f5c8efa78c4d2a4b25cbf" title="QCPItemRect::selectedBrush" alt="" coords="207,392,403,419"/>
+<area shape="rect" id="node12" href="$class_q_c_p_item_text.html#a00e0fa03822ff384bf4921c1c90322ff" title="QCPItemText::padding" alt="" coords="227,443,383,469"/>
+<area shape="rect" id="node14" href="$class_q_c_p_item_ellipse.html#a0043e401a912d54ea3195bab0967b394" title="QCPItemEllipse::selected\lBrush" alt="" coords="218,494,391,535"/>
+<area shape="rect" id="node15" href="$class_q_c_p_item_pixmap.html#af8e839d7c7b84e214608feda3caec2bc" title="QCPItemPixmap::selectedPen" alt="" coords="204,560,405,587"/>
+<area shape="rect" id="node16" href="$class_q_c_p_item_tracer.html#ab318c233fa35c17a317af38ce7b3c312" title="QCPItemTracer::interpolating" alt="" coords="209,611,401,637"/>
+<area shape="rect" id="node17" href="$class_q_c_p_item_bracket.html#afad726f453f70fe77c0e9c2f260fff97" title="QCPItemBracket::style" alt="" coords="225,661,384,688"/>
+<area shape="rect" id="node19" href="$classwindow__graph.html#a8f8334fb8413829ee02177bdbd86d1eb" title="graphs_init " alt="" coords="217,712,393,739"/>
+<area shape="rect" id="node8" href="$class_q_c_p_item_line.html#ac264222c3297a7efe33df9345c811a5f" title="QCPItemLine::setTail" alt="" coords="469,291,617,317"/>
+<area shape="rect" id="node10" href="$class_q_c_p_item_curve.html#ac3488d8b1a6489c845dc5bff3ef71124" title="QCPItemCurve::setTail" alt="" coords="463,341,622,368"/>
+<area shape="rect" id="node13" href="$class_q_c_p_item_text.html#aeea8a3e01f135f9dd0bb08f51db66310" title="QCPItemText::setPadding" alt="" coords="455,443,631,469"/>
+<area shape="rect" id="node18" href="$class_q_c_p_item_bracket.html#a612dffa2373422eef8754d690add3703" title="QCPItemBracket::setStyle" alt="" coords="453,661,632,688"/>
+<area shape="rect" id="node20" href="$classwindow__graph.html#a6d43127665ebae38fe7492a8968ea1cd" title="Konstruuje obiekt window_graph. " alt="" coords="865,734,1023,775"/>
+<area shape="rect" id="node21" href="$classwindow__graph.html#a060973c4bfc564d577d474ec2ada21f6" title="reset_graphs " alt="" coords="471,763,614,805"/>
+<area shape="rect" id="node22" href="$classwindow__graph.html#ac7ddd7cd43c21412c8cf627a7d8324ea" title="load_graphs_settings " alt="" coords="680,763,817,805"/>
+</map>

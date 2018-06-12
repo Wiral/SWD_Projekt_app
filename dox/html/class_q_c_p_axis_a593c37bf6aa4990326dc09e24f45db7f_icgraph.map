@@ -1,0 +1,14 @@
+<map id="QCPAxis::axisType" name="QCPAxis::axisType">
+<area shape="rect" id="node2" href="$class_q_c_p_axis_rect.html#a2dc336092ccc57d44a46194c8a23e4f4" title="QCPAxisRect::addAxis" alt="" coords="207,81,367,108"/>
+<area shape="rect" id="node10" href="$class_q_c_p_graph.html#a5ea875197f4988c6fdf314259321566f" title="QCPGraph::getFillBasePoint" alt="" coords="192,132,381,159"/>
+<area shape="rect" id="node3" href="$class_q_c_p_axis_rect.html#a60b31dece805462c1b82eea2e69ba042" title="QCPAxisRect::QCPAxisRect" alt="" coords="441,5,637,32"/>
+<area shape="rect" id="node4" href="$class_q_c_p_axis_rect.html#a792e1f3d9cb1591fca135bb0de9b81fc" title="QCPAxisRect::addAxes" alt="" coords="457,56,621,83"/>
+<area shape="rect" id="node5" href="$class_q_c_p_axis_rect.html#a5fa906175447b14206954f77fc7f1ef4" title="QCPAxisRect::setupFullAxesBox" alt="" coords="429,107,648,133"/>
+<area shape="rect" id="node6" href="$classwindow__graph.html#a8f8334fb8413829ee02177bdbd86d1eb" title="graphs_init " alt="" coords="696,103,872,129"/>
+<area shape="rect" id="node7" href="$classwindow__graph.html#a6d43127665ebae38fe7492a8968ea1cd" title="Konstruuje obiekt window_graph. " alt="" coords="1296,66,1453,107"/>
+<area shape="rect" id="node8" href="$classwindow__graph.html#a060973c4bfc564d577d474ec2ada21f6" title="reset_graphs " alt="" coords="920,95,1063,137"/>
+<area shape="rect" id="node9" href="$classwindow__graph.html#ac7ddd7cd43c21412c8cf627a7d8324ea" title="load_graphs_settings " alt="" coords="1111,95,1248,137"/>
+<area shape="rect" id="node11" href="$class_q_c_p_graph.html#a48e9318abd259a1f800f2ccca718785f" title="QCPGraph::getFillPolygon" alt="" coords="451,159,627,185"/>
+<area shape="rect" id="node12" href="$class_q_c_p_graph.html#a81f56135cf16ee23af4e60bdd06a3331" title="QCPGraph::drawFill" alt="" coords="715,160,853,187"/>
+<area shape="rect" id="node13" href="$class_q_c_p_graph.html#a2b0849598f06e834b43ce18cd13bcdc3" title="QCPGraph::draw" alt="" coords="930,161,1053,188"/>
+</map>

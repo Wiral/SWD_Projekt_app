@@ -1,0 +1,6 @@
+<map id="QCPGraph::getVisibleDataBounds" name="QCPGraph::getVisibleDataBounds">
+<area shape="rect" id="node2" href="$class_q_c_p_data_range.html#a2ab2e0710dbd4493133ab582ef7e5fc3" title="QCPDataRange::isEmpty" alt="" coords="232,5,405,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_abstract_plottable.html#a72c7a09c22963f2c943f07112b311103" title="QCPAbstractPlottable\l::keyAxis" alt="" coords="243,57,394,98"/>
+<area shape="rect" id="node4" href="$class_q_c_p_abstract_plottable.html#a3106f9d34d330a6097a8ec5905e5b519" title="QCPAbstractPlottable\l::valueAxis" alt="" coords="243,122,394,163"/>
+<area shape="rect" id="node5" href="$class_q_c_p_axis.html#ab1ea79a4f5ea4cf42620f8f51c477ac4" title="QCPAxis::range" alt="" coords="260,188,377,215"/>
+</map>

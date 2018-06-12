@@ -1,0 +1,10 @@
+<map id="QCustomPlot::addLayer" name="QCustomPlot::addLayer">
+<area shape="rect" id="node2" href="$class_q_custom_plot.html#aac492da01782820454e9136a8db28182" title="QCustomPlot::layer" alt="" coords="496,6,633,33"/>
+<area shape="rect" id="node4" href="$class_q_c_p_layer.html#ad5d7010829a6b99f326b07d7e37c8c99" title="QCPLayer::index" alt="" coords="261,32,384,58"/>
+<area shape="rect" id="node5" href="$class_q_custom_plot.html#a3117754df3a5638787a6223c7147970f" title="QCustomPlot::updateLayer\lIndices" alt="" coords="233,83,413,124"/>
+<area shape="rect" id="node6" href="$class_q_custom_plot.html#a2685341f7242c3882f4cc5e379308d71" title="QCustomPlot::setupPaintBuffers" alt="" coords="216,149,429,176"/>
+<area shape="rect" id="node3" href="$class_q_c_p_layer.html#a96ebd1e436f3813938cb9cd4a59a60be" title="QCPLayer::name" alt="" coords="718,6,841,33"/>
+<area shape="rect" id="node7" href="$class_q_custom_plot.html#a943b57596a1adf7f0e75c3b50e407ae6" title="QCustomPlot::createPaint\lBuffer" alt="" coords="477,83,652,124"/>
+<area shape="rect" id="node8" href="$class_q_custom_plot.html#a953ecdbc28018e7e84cb6213ad3d88c2" title="QCustomPlot::viewport" alt="" coords="700,120,859,146"/>
+<area shape="rect" id="node9" href="$class_q_c_p_layer.html#ae93755983003f89e5331bc91598a772e" title="QCPLayer::mode" alt="" coords="503,200,626,226"/>
+</map>

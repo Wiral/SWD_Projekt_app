@@ -1,0 +1,7 @@
+<map id="QCustomPlot::graph" name="QCustomPlot::graph">
+<area shape="rect" id="node2" href="$classwindow__graph.html#a8f8334fb8413829ee02177bdbd86d1eb" title="graphs_init " alt="" coords="195,13,371,39"/>
+<area shape="rect" id="node6" href="$classwindow__graph.html#a17cfb6bc956059677dd5b466af468131" title="graphs_update " alt="" coords="207,64,359,105"/>
+<area shape="rect" id="node3" href="$classwindow__graph.html#a6d43127665ebae38fe7492a8968ea1cd" title="Konstruuje obiekt window_graph. " alt="" coords="795,5,952,47"/>
+<area shape="rect" id="node4" href="$classwindow__graph.html#a060973c4bfc564d577d474ec2ada21f6" title="reset_graphs " alt="" coords="419,35,561,76"/>
+<area shape="rect" id="node5" href="$classwindow__graph.html#ac7ddd7cd43c21412c8cf627a7d8324ea" title="load_graphs_settings " alt="" coords="609,35,747,76"/>
+</map>

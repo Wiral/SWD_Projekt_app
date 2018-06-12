@@ -1,0 +1,12 @@
+<map id="QCPPainter::modes" name="QCPPainter::modes">
+<area shape="rect" id="node2" href="$class_q_c_p_painter.html#a5fac93adc29c7c4dea9f3e171e9e635e" title="QCPPainter::setModes" alt="" coords="197,5,355,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_line_ending.html#a59582c35dcdc23456326b7aefc929e2b" title="QCPLineEnding::draw" alt="" coords="201,123,351,149"/>
+<area shape="rect" id="node9" href="$class_q_c_p_axis_painter_private.html#af8fe7350c19575bc33ca770f9b3a15fd" title="QCPAxisPainterPrivate\l::placeTickLabel" alt="" coords="197,57,355,98"/>
+<area shape="rect" id="node10" href="$class_q_c_p_color_map.html#a6b628014d2939368935efd0a788648c8" title="QCPColorMap::draw" alt="" coords="205,173,347,200"/>
+<area shape="rect" id="node11" href="$class_q_c_p_abstract_plottable1_d.html#afcc3d512b172721356003a318e0e4c88" title="QCPAbstractPlottable1D\l::drawPolyline" alt="" coords="192,225,360,266"/>
+<area shape="rect" id="node4" href="$class_q_c_p_line_ending.html#a045afaf5c8fa77623271d60e5d338288" title="QCPLineEnding::draw" alt="" coords="412,123,563,149"/>
+<area shape="rect" id="node5" href="$class_q_c_p_axis_painter_private.html#a0207a99bdf9c4f70af20928898ddc2fc" title="QCPAxisPainterPrivate\l::draw" alt="" coords="408,57,567,98"/>
+<area shape="rect" id="node7" href="$class_q_c_p_item_line.html#ae184140b61b2ef5b8edde76304447200" title="QCPItemLine::draw" alt="" coords="419,173,556,200"/>
+<area shape="rect" id="node8" href="$class_q_c_p_item_curve.html#a856ae61de18278847ba5e0e357bf68f2" title="QCPItemCurve::draw" alt="" coords="413,224,561,251"/>
+<area shape="rect" id="node6" href="$class_q_c_p_axis.html#ac15ebb4225ca5212d8e5fffae481bc9b" title="QCPAxis::draw" alt="" coords="615,64,728,91"/>
+</map>

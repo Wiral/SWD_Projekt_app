@@ -1,0 +1,6 @@
+<map id="MainWindow::stm32_connect_fail" name="MainWindow::stm32_connect_fail">
+<area shape="rect" id="node2" href="$class_main_window.html#a8b244be8b7b7db1b08de2a2acb9409db" title="Konstruuje obiekt MainWindow. " alt="" coords="768,5,948,32"/>
+<area shape="rect" id="node3" href="$class_main_window.html#aefe9cb5f491effb17cd40e8054f33030" title="stm32_connect " alt="" coords="272,31,467,57"/>
+<area shape="rect" id="node4" href="$class_main_window.html#a73caf7f302dec0a2767bb5bd15ed1ef9" title="stm32_reconnect " alt="" coords="515,31,720,57"/>
+<area shape="rect" id="node5" href="$class_main_window.html#a8cee7c3129d0cc1187f0938ad2b3e436" title="on_actionStart_Stop_triggered " alt="" coords="523,82,712,123"/>
+</map>

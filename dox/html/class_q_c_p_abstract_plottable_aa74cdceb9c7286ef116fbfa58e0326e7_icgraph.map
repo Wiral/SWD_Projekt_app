@@ -1,0 +1,15 @@
+<map id="QCPAbstractPlottable::brush" name="QCPAbstractPlottable::brush">
+<area shape="rect" id="node2" href="$class_q_c_p_abstract_plottable.html#a7a4b92144dca6453a1f0f210e27edc74" title="QCPAbstractPlottable\l::setBrush" alt="" coords="236,217,387,258"/>
+<area shape="rect" id="node13" href="$class_q_c_p_financial.html#a5ebff2b1764efd07cc44942e67821829" title="QCPFinancial::setBrushPositive" alt="" coords="206,283,417,309"/>
+<area shape="rect" id="node14" href="$class_q_c_p_financial.html#a8bbdd87629f9144b3ef51af660c0961a" title="QCPFinancial::setBrushNegative" alt="" coords="204,333,419,360"/>
+<area shape="rect" id="node3" href="$class_q_c_p_graph.html#a0393a38cf7183cbf46348eb6cf9a5a6c" title="QCPGraph::QCPGraph" alt="" coords="491,5,649,32"/>
+<area shape="rect" id="node4" href="$class_q_c_p_curve.html#a36de58e2652b3fa47bdf9187d421d3ce" title="QCPCurve::QCPCurve" alt="" coords="491,56,649,83"/>
+<area shape="rect" id="node5" href="$class_q_c_p_statistical_box.html#a75c2b3e7fcd0741cc981693a2ba63b27" title="QCPStatisticalBox::\lQCPStatisticalBox" alt="" coords="500,107,640,149"/>
+<area shape="rect" id="node6" href="$class_q_c_p_error_bars.html#a5cdcc33e5f173780c3d657e96216e5c1" title="QCPErrorBars::QCPErrorBars" alt="" coords="471,173,669,200"/>
+<area shape="rect" id="node7" href="$class_q_c_p_legend.html#a08005f3c17728c2c4e23b8ffc0842ffb" title="QCPLegend::selectedTextColor" alt="" coords="467,224,673,251"/>
+<area shape="rect" id="node8" href="$class_q_c_p_item_rect.html#a3b586228393f5c8efa78c4d2a4b25cbf" title="QCPItemRect::selectedBrush" alt="" coords="472,275,668,301"/>
+<area shape="rect" id="node9" href="$class_q_c_p_item_text.html#a00e0fa03822ff384bf4921c1c90322ff" title="QCPItemText::padding" alt="" coords="492,325,648,352"/>
+<area shape="rect" id="node11" href="$class_q_c_p_item_ellipse.html#a0043e401a912d54ea3195bab0967b394" title="QCPItemEllipse::selected\lBrush" alt="" coords="483,377,657,418"/>
+<area shape="rect" id="node12" href="$class_q_c_p_item_tracer.html#ab318c233fa35c17a317af38ce7b3c312" title="QCPItemTracer::interpolating" alt="" coords="474,443,666,469"/>
+<area shape="rect" id="node10" href="$class_q_c_p_item_text.html#aeea8a3e01f135f9dd0bb08f51db66310" title="QCPItemText::setPadding" alt="" coords="721,325,897,352"/>
+</map>

@@ -95,11 +95,6 @@ void window_opengl::prepare_data(QStringList new_data)
 
 }
 
-void window_opengl::resizeGL(int w, int h)
-{
-    glViewport(0,0,w,h);
-}
-
 window_opengl::~window_opengl()
 {
     delete ui;

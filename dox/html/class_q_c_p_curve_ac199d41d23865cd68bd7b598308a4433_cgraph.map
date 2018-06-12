@@ -1,0 +1,51 @@
+<map id="QCPCurve::draw" name="QCPCurve::draw">
+<area shape="rect" id="node2" href="$class_q_c_p_abstract_plottable1_d.html#a966cb165fb1dfc561d923dc6f8b149ea" title="QCPAbstractPlottable1D\l\&lt; QCPCurveData \&gt;::getDataSegments" alt="" coords="176,275,427,317"/>
+<area shape="rect" id="node3" href="$class_q_c_p_selection_decorator.html#a8365eaa0543756dd6758efa32fbe8041" title="QCPSelectionDecorator::pen" alt="" coords="206,341,397,368"/>
+<area shape="rect" id="node4" href="$class_q_c_p_data_range.html#a7a7a144cd3df55a6e011b9a84f0f8b69" title="QCPDataRange::adjusted" alt="" coords="214,392,389,419"/>
+<area shape="rect" id="node5" href="$class_q_c_p_curve.html#a90999a3378969ed08046395fa8fab37b" title="QCPCurve::getCurveLines" alt="" coords="212,443,391,469"/>
+<area shape="rect" id="node27" href="$namespace_q_c_p.html#a07ab701c05329089f933b9cae2638a63" title="QCP::isInvalidData" alt="" coords="234,737,369,764"/>
+<area shape="rect" id="node28" href="$class_q_c_p_abstract_plottable.html#a1affc1972938e4364a9325e4e4e4dcea" title="QCPAbstractPlottable\l::name" alt="" coords="226,789,377,830"/>
+<area shape="rect" id="node29" href="$class_q_c_p_abstract_plottable.html#ac08a480155895e674dbfe5a5670e0ff3" title="QCPAbstractPlottable\l::applyFillAntialiasingHint" alt="" coords="500,894,669,935"/>
+<area shape="rect" id="node31" href="$class_q_c_p_selection_decorator.html#aa7ecaa5c307cc65285cdf62364c69e56" title="QCPSelectionDecorator\l::applyBrush" alt="" coords="220,1070,383,1111"/>
+<area shape="rect" id="node32" href="$class_q_c_p_painter.html#af9c7a4cd1791403901f8c5b82a150195" title="QCPPainter::setPen" alt="" coords="791,1019,932,1045"/>
+<area shape="rect" id="node34" href="$class_q_c_p_curve.html#a2d657f89bfb5a5da35a063dca997c583" title="QCPCurve::drawCurveLine" alt="" coords="211,855,392,881"/>
+<area shape="rect" id="node37" href="$class_q_c_p_selection_decorator.html#aa0c630c41103809985f41b3b81b0c308" title="QCPSelectionDecorator\l::getFinalScatterStyle" alt="" coords="220,1198,383,1239"/>
+<area shape="rect" id="node41" href="$class_q_c_p_scatter_style.html#a1973ee650368f1c5f55507b78473f634" title="QCPScatterStyle::size" alt="" coords="784,1337,939,1364"/>
+<area shape="rect" id="node42" href="$class_q_c_p_scatter_style.html#aa3861281108d0adbeb291c820ea3925c" title="QCPScatterStyle::isNone" alt="" coords="215,1369,387,1396"/>
+<area shape="rect" id="node43" href="$class_q_c_p_curve.html#aaa0cc6dc484d2fc98ebaee4b121206fa" title="QCPCurve::getScatters" alt="" coords="781,560,942,587"/>
+<area shape="rect" id="node45" href="$class_q_c_p_curve.html#a783b6188a81617380534e41539f55ed3" title="QCPCurve::drawScatterPlot" alt="" coords="208,1019,395,1045"/>
+<area shape="rect" id="node49" href="$class_q_c_p_selection_decorator.html#a4f8eb49e277063845391e803ae23054a" title="QCPSelectionDecorator\l::drawDecoration" alt="" coords="220,1421,383,1462"/>
+<area shape="rect" id="node50" href="$class_q_c_p_abstract_plottable.html#a6fcea502826afbaab2568bd3ebc61b4b" title="QCPAbstractPlottable\l::selection" alt="" coords="226,1486,377,1527"/>
+<area shape="rect" id="node6" href="$class_q_c_p_abstract_plottable.html#a72c7a09c22963f2c943f07112b311103" title="QCPAbstractPlottable\l::keyAxis" alt="" coords="1059,494,1209,535"/>
+<area shape="rect" id="node7" href="$class_q_c_p_abstract_plottable.html#a3106f9d34d330a6097a8ec5905e5b519" title="QCPAbstractPlottable\l::valueAxis" alt="" coords="1059,275,1209,317"/>
+<area shape="rect" id="node8" href="$class_q_c_p_axis.html#ae9289ef7043b9d966af88eaa95b037d1" title="QCPAxis::pixelToCoord" alt="" coords="1053,392,1215,419"/>
+<area shape="rect" id="node15" href="$class_q_c_p_axis.html#a985ae693b842fb0422b4390fe36d299a" title="QCPAxis::coordToPixel" alt="" coords="1053,341,1215,368"/>
+<area shape="rect" id="node18" href="$class_q_c_p_axis.html#ab1ea79a4f5ea4cf42620f8f51c477ac4" title="QCPAxis::range" alt="" coords="1075,661,1193,688"/>
+<area shape="rect" id="node19" href="$class_q_c_p_axis.html#ae3b000e10a6885b8ee05298ae7124ab6" title="QCPAxis::pixelOrientation" alt="" coords="1047,712,1221,739"/>
+<area shape="rect" id="node20" href="$class_q_c_p_curve.html#a8e0df32978cc526d2f3f0e342834bd4c" title="QCPCurve::getRegion" alt="" coords="508,291,661,317"/>
+<area shape="rect" id="node21" href="$class_q_c_p_curve.html#a4ed1566795ea51d519f9f0d17f0f131d" title="QCPCurve::getOptimizedPoint" alt="" coords="484,341,685,368"/>
+<area shape="rect" id="node22" href="$class_q_c_p_curve.html#a929433e67ae3e3770236abea5f1e7a6d" title="QCPCurve::getOptimizedCorner\lPoints" alt="" coords="479,494,690,535"/>
+<area shape="rect" id="node23" href="$class_q_c_p_abstract_plottable.html#ade710a776104b14c1c835168ce1bfc5c" title="QCPAbstractPlottable\l::coordsToPixels" alt="" coords="786,435,937,477"/>
+<area shape="rect" id="node24" href="$class_q_c_p_curve.html#ae5b232c8201441a940516c745309a685" title="QCPCurve::mayTraverse" alt="" coords="499,392,670,419"/>
+<area shape="rect" id="node25" href="$class_q_c_p_curve.html#aa5ba854363f7343c829e37c7d19830cd" title="QCPCurve::getTraverse" alt="" coords="503,72,666,99"/>
+<area shape="rect" id="node26" href="$class_q_c_p_curve.html#ab231faca0b8d53c19be37c1baea14dd8" title="QCPCurve::getTraverseCorner\lPoints" alt="" coords="483,225,686,266"/>
+<area shape="rect" id="node9" href="$class_q_c_p_axis.html#a57483f2f60145ddc9e63f3af53959265" title="QCPAxis::orientation" alt="" coords="1292,519,1437,545"/>
+<area shape="rect" id="node10" href="$class_q_c_p_axis_rect.html#a55b3ecf72a3a65b053f7651b88db458d" title="QCPAxisRect::left" alt="" coords="1299,468,1430,495"/>
+<area shape="rect" id="node11" href="$class_q_c_p_axis_rect.html#a45bf5c17f4ca29131b7eb0db06efc259" title="QCPAxisRect::width" alt="" coords="1293,265,1437,292"/>
+<area shape="rect" id="node12" href="$class_q_c_p_range.html#afa57c13049b965edb6fd1c00ac56338a" title="QCPRange::size" alt="" coords="1304,316,1425,343"/>
+<area shape="rect" id="node13" href="$class_q_c_p_axis_rect.html#af2b5982ebe7e6f781b9bf1cc371a60d8" title="QCPAxisRect::bottom" alt="" coords="1288,367,1441,393"/>
+<area shape="rect" id="node14" href="$class_q_c_p_axis_rect.html#a1c55c4f3bef40cf01b21820316c8469e" title="QCPAxisRect::height" alt="" coords="1291,417,1439,444"/>
+<area shape="rect" id="node16" href="$class_q_c_p_axis_rect.html#a6d0f989fc552aa2b563cf82f8fc81e61" title="QCPAxisRect::right" alt="" coords="1295,164,1434,191"/>
+<area shape="rect" id="node17" href="$class_q_c_p_axis_rect.html#ac45aef1eb75cea46b241b6303028a607" title="QCPAxisRect::top" alt="" coords="1299,215,1430,241"/>
+<area shape="rect" id="node30" href="$class_q_c_p_layerable.html#a62bd552d1a45aa9accb24b310542279e" title="QCPLayerable::applyAntialiasingHint" alt="" coords="743,901,980,928"/>
+<area shape="rect" id="node33" href="$class_q_c_p_painter.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8" title="QCPPainter::makeNonCosmetic" alt="" coords="1028,1019,1240,1045"/>
+<area shape="rect" id="node35" href="$class_q_c_p_abstract_plottable.html#ac032077fb0db93d6faa3273d02363398" title="QCPAbstractPlottable\l::applyDefaultAntialiasingHint" alt="" coords="487,829,682,870"/>
+<area shape="rect" id="node36" href="$class_q_c_p_abstract_plottable1_d.html#afcc3d512b172721356003a318e0e4c88" title="QCPAbstractPlottable1D\l\&lt; QCPCurveData \&gt;::drawPolyline" alt="" coords="475,763,695,805"/>
+<area shape="rect" id="node38" href="$class_q_c_p_scatter_style.html#a7d59ba8864914f765817841089e436f1" title="QCPScatterStyle::setFrom\lOther" alt="" coords="495,1230,674,1271"/>
+<area shape="rect" id="node39" href="$class_q_c_p_scatter_style.html#a761f1f229cc0ca4703e1e2b89f6dd1ba" title="QCPScatterStyle::setPen" alt="" coords="775,1208,947,1235"/>
+<area shape="rect" id="node40" href="$class_q_c_p_scatter_style.html#a7f1385a8d5e4f349a6b8030723fbd0f7" title="QCPScatterStyle::isPenDefined" alt="" coords="757,1268,966,1295"/>
+<area shape="rect" id="node44" href="$class_q_c_p_range.html#a030ce95b527c32e01414d0351347b46d" title="QCPRange::contains" alt="" coords="1061,611,1207,637"/>
+<area shape="rect" id="node46" href="$class_q_c_p_abstract_plottable.html#a753272ee225a62827e90c3e1e78de4b1" title="QCPAbstractPlottable\l::applyScattersAntialiasingHint" alt="" coords="484,1011,685,1053"/>
+<area shape="rect" id="node47" href="$class_q_c_p_scatter_style.html#a81817dfd404635f211e6ff2a04657d36" title="QCPScatterStyle::applyTo" alt="" coords="496,1077,673,1104"/>
+<area shape="rect" id="node48" href="$class_q_c_p_scatter_style.html#aeaf6dbadb0b0e6d890a6e3bbe5aebece" title="QCPScatterStyle::drawShape" alt="" coords="487,1128,683,1155"/>
+</map>

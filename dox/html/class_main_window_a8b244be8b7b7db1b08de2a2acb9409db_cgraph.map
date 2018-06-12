@@ -1,0 +1,8 @@
+<map id="MainWindow::MainWindow" name="MainWindow::MainWindow">
+<area shape="rect" id="node2" href="$class_main_window.html#aaa36eedf3fb8a68f7419d162338ed6c7" title="load_settings " alt="" coords="245,5,427,32"/>
+<area shape="rect" id="node3" href="$class_main_window.html#ab7d4e080d0270ce3e56ba3933039de25" title="stm32_read " alt="" coords="249,56,423,83"/>
+<area shape="rect" id="node4" href="$class_main_window.html#a73caf7f302dec0a2767bb5bd15ed1ef9" title="stm32_reconnect " alt="" coords="233,107,439,133"/>
+<area shape="rect" id="node7" href="$class_main_window.html#ad70975d1666b54798d334dd2d2eb73ba" title="stm32_show_connect_fail " alt="" coords="247,158,425,199"/>
+<area shape="rect" id="node5" href="$class_main_window.html#a01bf7f66a000df97954baa57aae9d96f" title="stm32_disconnect " alt="" coords="487,81,697,108"/>
+<area shape="rect" id="node6" href="$class_main_window.html#aefe9cb5f491effb17cd40e8054f33030" title="stm32_connect " alt="" coords="495,132,689,159"/>
+</map>

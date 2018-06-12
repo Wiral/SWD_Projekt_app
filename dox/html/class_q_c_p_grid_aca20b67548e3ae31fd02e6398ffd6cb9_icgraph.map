@@ -1,0 +1,11 @@
+<map id="QCPGrid::pen" name="QCPGrid::pen">
+<area shape="rect" id="node2" href="$class_q_c_p_grid.html#aa05ab9816ffb440908171e45e833b593" title="QCPGrid::setPen" alt="" coords="183,13,307,39"/>
+<area shape="rect" id="node8" href="$class_q_c_p_grid.html#a9edd3593f384d1f0b0202a39cef4453d" title="QCPGrid::setSubGridPen" alt="" coords="159,63,330,90"/>
+<area shape="rect" id="node9" href="$class_q_c_p_grid.html#a209f40fdb252397b418b82d3494d8ea0" title="QCPGrid::setZeroLinePen" alt="" coords="157,114,332,141"/>
+<area shape="rect" id="node3" href="$class_q_c_p_grid.html#acd1cdd2909625388a13048b698494a17" title="QCPGrid::QCPGrid" alt="" coords="410,63,546,90"/>
+<area shape="rect" id="node4" href="$classwindow__graph.html#a8f8334fb8413829ee02177bdbd86d1eb" title="graphs_init " alt="" coords="390,13,566,39"/>
+<area shape="rect" id="node5" href="$classwindow__graph.html#a6d43127665ebae38fe7492a8968ea1cd" title="Konstruuje obiekt window_graph. " alt="" coords="1000,5,1157,47"/>
+<area shape="rect" id="node6" href="$classwindow__graph.html#a060973c4bfc564d577d474ec2ada21f6" title="reset_graphs " alt="" coords="624,35,767,76"/>
+<area shape="rect" id="node7" href="$classwindow__graph.html#ac7ddd7cd43c21412c8cf627a7d8324ea" title="load_graphs_settings " alt="" coords="815,35,952,76"/>
+<area shape="rect" id="node10" href="$class_q_c_p_axis_rect.html#a60b31dece805462c1b82eea2e69ba042" title="QCPAxisRect::QCPAxisRect" alt="" coords="380,114,576,141"/>
+</map>

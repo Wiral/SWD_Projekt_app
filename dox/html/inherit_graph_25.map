@@ -1,0 +1,5 @@
+<map id="Graficzna hierarchia klas" name="Graficzna hierarchia klas">
+<area shape="rect" id="node2" href="$class_q_custom_plot.html" title="The central class of the library. This is the QWidget which displays the plot and interacts with the ..." alt="" coords="129,5,230,32"/>
+<area shape="rect" id="node3" href="$classwindow__data.html" title="Definiuje pojęcie klasy window_data. " alt="" coords="130,56,229,83"/>
+<area shape="rect" id="node4" href="$classwindow__graph.html" title="definiuje pojęcie klasy window_graph " alt="" coords="127,107,232,133"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="QCPDataRange::end" name="QCPDataRange::end">
+<area shape="rect" id="node2" href="$class_q_c_p_data_selection.html#a8d18b20d20dde737eefc10967e31cf73" title="QCPDataSelection::operator&#45;=" alt="" coords="207,5,407,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_data_selection.html#a02c6253d87d72b8defbee2e6bfa8a494" title="QCPDataSelection::inverse" alt="" coords="216,239,399,265"/>
+<area shape="rect" id="node7" href="$class_q_c_p_selection_decorator_bracket.html#a9ebe2e729b5012c0a995d788f87fac22" title="QCPSelectionDecoratorBracket\l::drawDecoration" alt="" coords="204,107,411,149"/>
+<area shape="rect" id="node8" href="$class_q_c_p_graph.html#a48e9318abd259a1f800f2ccca718785f" title="QCPGraph::getFillPolygon" alt="" coords="219,56,395,83"/>
+<area shape="rect" id="node11" href="$class_q_c_p_graph.html#aa112ba720973f714f98588985e51e782" title="QCPGraph::getChannelFill\lPolygon" alt="" coords="219,173,396,214"/>
+<area shape="rect" id="node12" href="$class_q_c_p_error_bars.html#a4d86d520222be51851106312dff75c49" title="QCPErrorBars::getVisible\lDataBounds" alt="" coords="222,290,393,331"/>
+<area shape="rect" id="node16" href="$class_q_c_p_data_range.html#a486dd7af8a090ed069672e3510e6a082" title="QCPDataRange::operator\&lt;\&lt;" alt="" coords="213,356,401,383"/>
+<area shape="rect" id="node17" href="$class_q_c_p_data_container.html#ad55f9e9c95ab4414b477d2f08ffd9bd7" title="QCPDataContainer::limitIterators\lToDataRange" alt="" coords="200,407,415,449"/>
+<area shape="rect" id="node4" href="$class_q_c_p_error_bars.html#a1e9fef8dd1853558c05d1235c1a1b033" title="QCPErrorBars::getDataSegments" alt="" coords="463,239,681,265"/>
+<area shape="rect" id="node6" href="$class_q_c_p_abstract_plottable1_d.html#a966cb165fb1dfc561d923dc6f8b149ea" title="QCPAbstractPlottable1D\l::getDataSegments" alt="" coords="488,173,656,214"/>
+<area shape="rect" id="node5" href="$class_q_c_p_error_bars.html#a801e85931372abf2a1034bfb2eac5cd2" title="QCPErrorBars::draw" alt="" coords="745,264,888,291"/>
+<area shape="rect" id="node9" href="$class_q_c_p_graph.html#a81f56135cf16ee23af4e60bdd06a3331" title="QCPGraph::drawFill" alt="" coords="503,89,641,116"/>
+<area shape="rect" id="node10" href="$class_q_c_p_graph.html#a2b0849598f06e834b43ce18cd13bcdc3" title="QCPGraph::draw" alt="" coords="755,89,878,116"/>
+<area shape="rect" id="node13" href="$class_q_c_p_error_bars.html#ad7c727736599dfb173f0952082e1a5b6" title="QCPErrorBars::selectTestRect" alt="" coords="471,340,673,367"/>
+<area shape="rect" id="node14" href="$class_q_c_p_error_bars.html#a6701c510c6a0ad95d3335c6f2470eca0" title="QCPErrorBars::pointDistance" alt="" coords="475,391,669,417"/>
+<area shape="rect" id="node15" href="$class_q_c_p_error_bars.html#ac1b6675ef43e32547a3cbcf7b7ac46ed" title="QCPErrorBars::selectTest" alt="" coords="729,391,904,417"/>
+</map>

@@ -25,7 +25,15 @@
 
 #ifndef QCUSTOMPLOT_H
 #define QCUSTOMPLOT_H
-
+/*!
+* \file
+* \brief Definicja QCustomPlot
+*
+*Zbiór definicji i funkcji
+* wykorzystywanych do rysowania grafów
+* w oknie window_graph
+*
+*/
 #include <QtCore/qglobal.h>
 
 // some Qt version/configuration dependent macros to include or exclude certain code paths:

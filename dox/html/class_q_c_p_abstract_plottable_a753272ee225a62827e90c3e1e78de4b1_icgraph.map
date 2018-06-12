@@ -1,0 +1,10 @@
+<map id="QCPAbstractPlottable::applyScattersAntialiasingHint" name="QCPAbstractPlottable::applyScattersAntialiasingHint">
+<area shape="rect" id="node2" href="$class_q_c_p_graph.html#a6efbab06c400bdb15e28b2d0a4ecc18a" title="QCPGraph::drawLegendIcon" alt="" coords="255,5,444,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_graph.html#a80031550e4809555b7bcbfeb3c7a1b07" title="QCPGraph::drawScatterPlot" alt="" coords="256,56,443,83"/>
+<area shape="rect" id="node5" href="$class_q_c_p_curve.html#aac6e94afbce4002d2cd7793250154e84" title="QCPCurve::drawLegendIcon" alt="" coords="255,107,444,133"/>
+<area shape="rect" id="node6" href="$class_q_c_p_curve.html#a783b6188a81617380534e41539f55ed3" title="QCPCurve::drawScatterPlot" alt="" coords="256,157,443,184"/>
+<area shape="rect" id="node8" href="$class_q_c_p_statistical_box.html#a11077e9144b7bd22cc2a109ac6255b6e" title="QCPStatisticalBox::\ldrawStatisticalBox" alt="" coords="279,209,419,250"/>
+<area shape="rect" id="node4" href="$class_q_c_p_graph.html#a2b0849598f06e834b43ce18cd13bcdc3" title="QCPGraph::draw" alt="" coords="515,56,637,83"/>
+<area shape="rect" id="node7" href="$class_q_c_p_curve.html#ac199d41d23865cd68bd7b598308a4433" title="QCPCurve::draw" alt="" coords="515,157,637,184"/>
+<area shape="rect" id="node9" href="$class_q_c_p_statistical_box.html#afcff35fa79728cfe10e80e0702014fea" title="QCPStatisticalBox::draw" alt="" coords="492,216,660,243"/>
+</map>

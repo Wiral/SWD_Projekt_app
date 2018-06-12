@@ -1,0 +1,7 @@
+<map id="QCustomPlot::removeGraph" name="QCustomPlot::removeGraph">
+<area shape="rect" id="node2" href="$class_q_custom_plot.html#a9554b3d2d5b10c0f884bd4010b6c192c" title="QCustomPlot::removeGraph" alt="" coords="240,5,427,32"/>
+<area shape="rect" id="node3" href="$class_q_custom_plot.html#ab0f3abff2d2f7df3668b5836f39207fa" title="QCustomPlot::clearGraphs" alt="" coords="244,56,423,83"/>
+<area shape="rect" id="node4" href="$classwindow__graph.html#a060973c4bfc564d577d474ec2ada21f6" title="reset_graphs " alt="" coords="262,107,405,149"/>
+<area shape="rect" id="node5" href="$classwindow__graph.html#ac7ddd7cd43c21412c8cf627a7d8324ea" title="load_graphs_settings " alt="" coords="475,107,612,149"/>
+<area shape="rect" id="node6" href="$classwindow__graph.html#a6d43127665ebae38fe7492a8968ea1cd" title="Konstruuje obiekt window_graph. " alt="" coords="660,107,817,149"/>
+</map>

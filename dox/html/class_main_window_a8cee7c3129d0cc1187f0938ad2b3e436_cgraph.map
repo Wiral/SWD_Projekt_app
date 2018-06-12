@@ -1,0 +1,4 @@
+<map id="MainWindow::on_actionStart_Stop_triggered" name="MainWindow::on_actionStart_Stop_triggered">
+<area shape="rect" id="node2" href="$class_main_window.html#a01bf7f66a000df97954baa57aae9d96f" title="stm32_disconnect " alt="" coords="243,5,453,32"/>
+<area shape="rect" id="node3" href="$class_main_window.html#aefe9cb5f491effb17cd40e8054f33030" title="stm32_connect " alt="" coords="251,56,445,83"/>
+</map>

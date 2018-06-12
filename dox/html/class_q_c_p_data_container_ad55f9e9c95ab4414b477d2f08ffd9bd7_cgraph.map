@@ -1,0 +1,10 @@
+<map id="QCPDataContainer::limitIteratorsToDataRange" name="QCPDataContainer::limitIteratorsToDataRange">
+<area shape="rect" id="node2" href="$class_q_c_p_data_container.html#a02360beeb3484df7c20f20c8f3ed4bb2" title="QCPDataContainer::constBegin" alt="" coords="268,5,476,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_data_range.html#a4de1bec5a6e1145bd332d93ac2cc8327" title="QCPDataRange::bounded" alt="" coords="285,56,459,83"/>
+<area shape="rect" id="node8" href="$class_q_c_p_data_range.html#a6b14c93d5010e973427b8ecaebf77864" title="QCPDataRange::begin" alt="" coords="294,107,450,133"/>
+<area shape="rect" id="node9" href="$class_q_c_p_data_range.html#add50cb7075b68a0dd35fb5c962c81bbf" title="QCPDataRange::end" alt="" coords="299,157,445,184"/>
+<area shape="rect" id="node4" href="$class_q_c_p_data_range.html#a2c56cbc35c3beaed34fca1839d570520" title="QCPDataRange::intersection" alt="" coords="524,5,716,32"/>
+<area shape="rect" id="node6" href="$class_q_c_p_data_range.html#a49e72fd9bace1da9d875136dcc04c986" title="QCPDataRange::QCPDataRange" alt="" coords="764,56,984,83"/>
+<area shape="rect" id="node7" href="$class_q_c_p_data_range.html#a2ab2e0710dbd4493133ab582ef7e5fc3" title="QCPDataRange::isEmpty" alt="" coords="533,107,707,133"/>
+<area shape="rect" id="node5" href="$class_q_c_p_data_range.html#a063eeb2c81e86900d974936cbb83f508" title="QCPDataRange::isValid" alt="" coords="792,5,956,32"/>
+</map>

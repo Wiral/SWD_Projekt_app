@@ -1,0 +1,23 @@
+<map id="QCPVector2D::dot" name="QCPVector2D::dot">
+<area shape="rect" id="node2" href="$class_q_c_p_vector2_d.html#a0f85a9c351640a4e0fc3c2a1a42d5d0c" title="QCPVector2D::distanceSquared\lToLine" alt="" coords="203,339,414,381"/>
+<area shape="rect" id="node21" href="$class_q_c_p_vector2_d.html#a29e8472875754769397f0d47d727be41" title="QCPVector2D::distanceToStraightLine" alt="" coords="185,515,432,541"/>
+<area shape="rect" id="node3" href="$class_q_c_p_vector2_d.html#a465aa1d96ae076bf33a7ec6cc49722be" title="QCPVector2D::distanceSquared\lToLine" alt="" coords="480,41,691,82"/>
+<area shape="rect" id="node4" href="$class_q_c_p_abstract_item.html#a57cf4b9cecbfeb5f9e267481ecfe10cd" title="QCPAbstractItem::rectDistance" alt="" coords="481,107,689,133"/>
+<area shape="rect" id="node8" href="$class_q_c_p_item_tracer.html#a9fd955fea40e977d66f3a9fd5765aec4" title="QCPItemTracer::selectTest" alt="" coords="743,157,925,184"/>
+<area shape="rect" id="node9" href="$class_q_c_p_graph.html#a619f22c55dffe9e6f380c5c79e3d9f0f" title="QCPGraph::pointDistance" alt="" coords="498,208,673,235"/>
+<area shape="rect" id="node11" href="$class_q_c_p_curve.html#ad95dda62d82d34271cdd22708a278d97" title="QCPCurve::pointDistance" alt="" coords="498,259,673,285"/>
+<area shape="rect" id="node13" href="$class_q_c_p_statistical_box.html#a1607fa92f829c631107c20ccb2d70a6d" title="QCPStatisticalBox::\lselectTest" alt="" coords="515,310,655,351"/>
+<area shape="rect" id="node14" href="$class_q_c_p_financial.html#aea6f07a7140694a59e1a2a8477af2bdd" title="QCPFinancial::ohlcSelectTest" alt="" coords="486,376,685,403"/>
+<area shape="rect" id="node16" href="$class_q_c_p_financial.html#a34bf41e29ade0ea6840536279c10b58c" title="QCPFinancial::candlestick\lSelectTest" alt="" coords="497,427,674,469"/>
+<area shape="rect" id="node17" href="$class_q_c_p_error_bars.html#a6701c510c6a0ad95d3335c6f2470eca0" title="QCPErrorBars::pointDistance" alt="" coords="488,493,683,520"/>
+<area shape="rect" id="node19" href="$class_q_c_p_item_curve.html#a718fa40140a43c8afbd41a3d85c92d72" title="QCPItemCurve::selectTest" alt="" coords="495,544,676,571"/>
+<area shape="rect" id="node20" href="$class_q_c_p_item_bracket.html#a49a6b2f41e0a8c2a2e3a2836027a8455" title="QCPItemBracket::selectTest" alt="" coords="490,595,681,621"/>
+<area shape="rect" id="node5" href="$class_q_c_p_item_rect.html#a2e68621b75bae4da6ae0ab2cdd0dd733" title="QCPItemRect::selectTest" alt="" coords="747,5,921,32"/>
+<area shape="rect" id="node6" href="$class_q_c_p_item_text.html#a676aaec10ad3cc4d7d0e4847db04c838" title="QCPItemText::selectTest" alt="" coords="748,56,920,83"/>
+<area shape="rect" id="node7" href="$class_q_c_p_item_pixmap.html#a65d1ede7bb479b90d40186d083071947" title="QCPItemPixmap::selectTest" alt="" coords="739,107,929,133"/>
+<area shape="rect" id="node10" href="$class_q_c_p_graph.html#a6d669d04462d272c6aa0e5f85846d673" title="QCPGraph::selectTest" alt="" coords="757,208,911,235"/>
+<area shape="rect" id="node12" href="$class_q_c_p_curve.html#a0ed9b7e6b4bc72010d6fcd974af46a8b" title="QCPCurve::selectTest" alt="" coords="757,259,911,285"/>
+<area shape="rect" id="node15" href="$class_q_c_p_financial.html#aac8e91622ac58330fa9ce81cc8fd40ee" title="QCPFinancial::selectTest" alt="" coords="748,405,920,432"/>
+<area shape="rect" id="node18" href="$class_q_c_p_error_bars.html#ac1b6675ef43e32547a3cbcf7b7ac46ed" title="QCPErrorBars::selectTest" alt="" coords="747,493,921,520"/>
+<area shape="rect" id="node22" href="$class_q_c_p_item_straight_line.html#a2e36c9d4dcc3aeda78a5584f790e39e3" title="QCPItemStraightLine\l::selectTest" alt="" coords="512,646,659,687"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="QCPTextElement::draw" name="QCPTextElement::draw">
+<area shape="rect" id="node2" href="$class_q_c_p_text_element.html#add703a8b26d42bfe2378c3f51dd5c9ce" title="QCPTextElement::mainFont" alt="" coords="215,5,401,32"/>
+<area shape="rect" id="node3" href="$class_q_c_p_painter.html#af9c7a4cd1791403901f8c5b82a150195" title="QCPPainter::setPen" alt="" coords="237,56,379,83"/>
+<area shape="rect" id="node5" href="$class_q_c_p_text_element.html#aed22b0d84634c10d81da006956ef5abb" title="QCPTextElement::mainText\lColor" alt="" coords="215,107,401,149"/>
+<area shape="rect" id="node4" href="$class_q_c_p_painter.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8" title="QCPPainter::makeNonCosmetic" alt="" coords="449,56,661,83"/>
+</map>
