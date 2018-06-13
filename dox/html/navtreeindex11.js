@@ -1,5 +1,9 @@
 var NAVTREEINDEX11 =
 {
+"qcustomplot_8h.html#ac6cb9db26a564b27feda362a438db038ae5b11259c42962db355e7448f4a8633a":[3,0,4,88,2],
+"qcustomplot_8h.html#ac6cb9db26a564b27feda362a438db038aff7a688d4d520e8e7f01be098a034a2d":[3,0,4,88,1],
+"qcustomplot_8h.html#ac9aa4d6d81ac76b094f9af9ad2d3aacf":[3,0,4,87],
+"qcustomplot_8h.html#ac9aa4d6d81ac76b094f9af9ad2d3aacfa15e7a00c8e7e0673c7b31d75266888d4":[3,0,4,87,3],
 "qcustomplot_8h.html#ac9aa4d6d81ac76b094f9af9ad2d3aacfa62c286e8da283a0cbb88ecac2f3f7506":[3,0,4,87,2],
 "qcustomplot_8h.html#ac9aa4d6d81ac76b094f9af9ad2d3aacfa739c260bf4d9a15f73423c91158b9428":[3,0,4,87,1],
 "qcustomplot_8h.html#ac9aa4d6d81ac76b094f9af9ad2d3aacfa9032f170490d67240a6c68c2638ffab1":[3,0,4,87,0],
@@ -57,6 +61,8 @@ var NAVTREEINDEX11 =
 "window__opengl_8cpp.html":[3,0,9],
 "window__opengl_8cpp_source.html":[3,0,9],
 "window__opengl_8h.html":[3,0,10],
+"window__opengl_8h.html#a9bd2b75a5f7f887582b14fdef12164de":[3,0,10,2],
+"window__opengl_8h.html#af476e4b09326a9ab0cfb61f55bc476d2":[3,0,10,1],
 "window__opengl_8h_source.html":[3,0,10],
 "window__settings_8cpp.html":[3,0,11],
 "window__settings_8cpp_source.html":[3,0,11],

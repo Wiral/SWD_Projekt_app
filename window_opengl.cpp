@@ -22,9 +22,9 @@ void window_opengl::paintGL()
     glDepthFunc(GL_LESS);
     glShadeModel(GL_SMOOTH);
     glLoadIdentity();
-    glRotatef(rotate_y,0,0,1);
-    glRotatef(rotate_x,-1,0,0);
-
+    glRotatef(orientation_y,-1,0,0);
+    glRotatef(orientation_x,0,0,1);
+    glRotatef(orientation_z,0,-1,0);
 
      glBegin(GL_POLYGON);
 
@@ -85,14 +85,13 @@ void window_opengl::paintGL()
 
 void window_opengl::prepare_data(QStringList new_data)
 {
-    float x_g = new_data[0].toInt()*2.0f/32678.0f;
-    float y_g = new_data[1].toInt()*2.0f/32678.0f;
-    float z_g = new_data[2].toInt()*2.0f/32678.0f;
-
-    rotate_y = atan2(z_g,x_g)*180.0f/M_PI-90.0f;
-    rotate_x = atan2(z_g,y_g)*180.0f/M_PI-90.0f;
+    angle_x += new_data[3].toInt();
+    orientation_x = ((angle_x*DPS/20)/ABS_SAMPLE_MAX) %360;
+    angle_y += new_data[4].toInt();
+    orientation_y = ((angle_y*DPS/20)/ABS_SAMPLE_MAX) %360;
+    angle_z += new_data[5].toInt();
+    orientation_z = ((angle_z*DPS/20)/ABS_SAMPLE_MAX) %360;
     update();
-
 }
 
 window_opengl::~window_opengl()

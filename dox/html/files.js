@@ -16,9 +16,7 @@ var files =
       [ "window_graph", "classwindow__graph.html", "classwindow__graph" ]
     ] ],
     [ "window_opengl.cpp", "window__opengl_8cpp.html", null ],
-    [ "window_opengl.h", "window__opengl_8h.html", [
-      [ "window_opengl", "classwindow__opengl.html", "classwindow__opengl" ]
-    ] ],
+    [ "window_opengl.h", "window__opengl_8h.html", "window__opengl_8h" ],
     [ "window_settings.cpp", "window__settings_8cpp.html", null ],
     [ "window_settings.h", "window__settings_8h.html", [
       [ "window_settings", "classwindow__settings.html", "classwindow__settings" ]
