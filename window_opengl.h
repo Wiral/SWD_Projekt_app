@@ -14,6 +14,7 @@
 #include <QWidget>
 #include <QOpenGLWidget>
 #define DPS 250 //rozdzielczosc dps żyroskopu
+#define DT 0.05 //częstotliwość próbkowania
 #define ABS_SAMPLE_MAX 0x7fff //max rozmiar próbki
 namespace Ui {
 class window_opengl;
@@ -51,7 +52,7 @@ public slots:
      * \brief prepare_data
      *
      * Przygotowuje zmiennie \link window_opengl::orientation_x\endlink, \link window_opengl::orientation_y\endlink oraz \link window_opengl::orientation_z\endlink
-     * Obliczane na podstawie aktualnych danych z żyroskopu pobranych z urządzenia
+     * Obliczane na podstawie aktualnych danych z żyroskopu pobranych z urządzenia. Następnie wywołuje funckcję \link window_opengl::update() \endlink
      * \param data_in - ramka danych zawierająca
      * dane z akcelerometru i żyroskopu
      */

@@ -85,12 +85,13 @@ void window_opengl::paintGL()
 
 void window_opengl::prepare_data(QStringList new_data)
 {
-    angle_x += new_data[3].toInt();
-    orientation_x = ((angle_x*DPS/20)/ABS_SAMPLE_MAX) %360;
-    angle_y += new_data[4].toInt();
-    orientation_y = ((angle_y*DPS/20)/ABS_SAMPLE_MAX) %360;
-    angle_z += new_data[5].toInt();
-    orientation_z = ((angle_z*DPS/20)/ABS_SAMPLE_MAX) %360;
+    angle_x += new_data[3].toInt()*DT;
+    orientation_x = ((angle_x)*DPS/ABS_SAMPLE_MAX) %360;
+    angle_y += new_data[4].toInt()*DT;
+    orientation_y = ((angle_y*DPS)/ABS_SAMPLE_MAX) %360;
+    angle_z += new_data[5].toInt()*DT;
+    orientation_z = ((angle_z*DPS)/ABS_SAMPLE_MAX) %360;
+    qDebug()<<"X: " << orientation_x << " Y: "<< orientation_y << " Z: " << orientation_z;
     update();
 }
 

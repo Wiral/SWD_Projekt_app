@@ -107,8 +107,7 @@ private slots:
     /*!
      * \brief on_actionStart_Stop_triggered
      *
-     * Reaguje na kliknięcie w opcję "Start/Stop". Ponownie łączy się z urządzeniem. W przypadku pierwszego
-     * użycia wykonuje próbę połączenia
+     * Reaguje na kliknięcie w opcję "Start/Stop". Jeżeli urządzenie jest połączone, rozłącza je. Jeżeli nie jest połączone, wykonuje próbę połączenia
      */
     void on_actionStart_Stop_triggered();
     /*!
